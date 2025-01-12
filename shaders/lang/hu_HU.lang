@@ -1,0 +1,773 @@
+# Profiles
+
+profile.low                            = §eAlacsony
+profile.medium                         = §aNormál
+profile.high                           = §bMagas
+profile.ultra                          = §dUltra
+
+# Screens
+
+screen.world                           = Világ
+screen.lighting                        = Világítás
+screen.sky                             = Ég
+screen.fog                             = Köd
+screen.materials                       = Anyagok
+screen.water                           = Víz
+screen.post                            = Poszt
+screen.misc                            = Egyéb
+screen.box                             = Doboz
+
+screen.colored_lights                  = Színes Fények Beállításai
+screen.rp_settings                     = Erőforráscsomagok Beállításai
+screen.reflections                     = Tükröződések
+screen.light_sources                   = Fényforrások
+screen.shadows                         = Árnyékok
+screen.color_grading                   = Színszedés
+screen.exposure                        = Expozíció
+
+screen.aurora                          = Auróra Fény
+screen.clouds                          = Felhők
+screen.clouds_cumulus                  = Gomolyfelhők Felhők Beállításai
+screen.clouds_altocumulus              = Középmagas Gomolyfelhők Felhők Beállításai
+screen.clouds_cumulus_congestus        = Felgyülemlett Gomolyfelhők Felhők Beállításai
+screen.clouds_cirrus                   = Pehelyfelhők Beállításai
+screen.clouds_minecrafty               = Kockás Felhők Beállításai
+
+screen.fog_rlh                         = Rayleif Ko-Takarékoskodója
+screen.fog_mie                         = Mie Ko-Takarékoskodója
+screen.sunlight_color                  = Napfény Színe
+screen.moonlight_color                 = Holdfény Színe
+screen.blocklight_color                = Blokkok Világításainak Színe
+screen.sunlight_morning                = Reggel
+screen.sunlight_noon                   = Dél
+screen.sunlight_evening                = Este
+screen.light_nether                    = Alvilág
+screen.light_end                       = A Vég
+screen.fog_rlh_normal                  = Normál Szín
+screen.fog_rlh_rain                    = Eső Szín
+screen.fog_rlh_arid                    = Száraz/Sivatagi Szín
+screen.fog_rlh_snowy                   = Havas Szín
+screen.fog_rlh_taiga                   = Taiga Szín
+screen.fog_rlh_jungle                  = Dzsungel Szín
+screen.fog_rlh_swamp                   = Mocsár Szín
+screen.water_waves                     = Víz Hullámok
+screen.water_fog_coeff                 = Vízi Köd Ko-Takarékoskodója
+
+screen.weather                         = Napi Időjárás Rendszer
+screen.weather_d0                      = Nulladik Nap
+screen.weather_d1                      = Első Nap
+screen.weather_d2                      = Második Nap
+screen.weather_d3                      = Harmadik Nap
+screen.weather_d4                      = Negyedik Nap
+screen.weather_d5                      = Ötödik Nap
+screen.weather_d6                      = Hatodik Nap
+screen.weather_d7                      = Hetedik Nap
+screen.weather_d8                      = Nyolcadik Nap
+screen.weather_d9                      = Kilencedik Nap
+screen.weather_d10                     = Tizedik Nap
+screen.weather_d11                     = Tizenegyedik Nap
+
+screen.end_light_color                 = Fény Színe
+screen.end_ambient_color               = Környezet Fényének a Színe
+screen.nether_color                    = Statikus Színek
+
+option.INFO                            = Erbium Shader (Árnyékoló)
+value.INFO.0                           = §eby Slimei
+value.INFO.1                           = §aby Slimei
+value.INFO.2                           = §bby Slimei
+value.INFO.3                           = §dby Slimei
+
+# World settings
+
+option.WAVING_PLANTS                   = Hullámzó Növények
+option.WAVING_PLANTS.comment           = A földi nyövények hajladoznak a szében.\n\nAhhoz, hogy egy blokkot hozzáadj a hullámzók közé, nyisd meg a shaderen beül a block.properties fájlt,és add hozzá ahhoz a kategóriához amihez tartozik. (10016, 10017 or 10018)
+option.WAVING_LEAVES                   = Hullámzó Levelek
+option.WAVING_LEAVES.comment           = A Levélblokkok hajladoznak a szélben.\n\nAhhoz, hogy egy blokkot hozzáadj a hullámzók közé, nyisd meg a shaderen beül a block.properties fájlt,és add hozzá ahhoz a kategóriához amihez tartozik. (10019)
+option.SLANTED_RAIN                    = Átlós Esőcseppek
+option.SLANTED_RAIN.comment            = Átlós esőcsepp részecskék. Picit realisztikusabbá teszi az esős időket
+option.RAIN_OPACITY                    = Eső Átlátszósága
+option.RAIN_OPACITY.comment            = Állítja az eső részecskéinek az átlátszóságát.
+option.SEA_LEVEL                       = Vízszint
+option.SEA_LEVEL.comment               = A tengerszint Y koordinátája..\n\n-60.0: Superflat post-1.18.\n4.0: Superflat pre-1.18.\n63.0: Normal.
+option.SNOW_OPACITY                    = Hó Átlátszósága
+option.SNOW_OPACITY.comment            = Állítja a hó részecskéinek az átlátszóságát.
+option.EDGE_HIGHLIGHT                  = Élek Kimutatása
+option.EDGE_HIGHLIGHT.comment          = Élkimutatás hatás, a Minecraft Dungeons-ből.
+option.EDGE_HIGHLIGHT_SCALE            = Élek Kimutatásának Vastagsága
+option.EDGE_HIGHLIGHT_SCALE.comment    = Állítja az élek kimutatásának a vastagságát; változtasd meg ezt olyanra, amilyen felbontású az erőforráscsomagod.
+option.MOON_PHASE_AFFECTS_BRIGHTNESS   = Hold-állás befolyásolja-e a fényeket
+option.MOON_PHASE_AFFECTS_BRIGHTNESS.comment = Az éjszakai fényt befolyásolhatja-e a Hold állása
+option.DESERT_SANDSTORM                = Sivatagi Homokvihar
+option.DESERT_SANDSTORM.comment        = Homokvihar lesz a meleg biomokba (Sivatag, Mesa) az eső, és a viher helyett.
+option.END_GLOW                        = Végbeli Fényesség
+option.END_GLOW.comment                = Változatos fények a Végben. Kötelező a Térfogatú Fény bekapcsolása.
+
+# Lighting settings
+
+option.COLORED_LIGHTS                  = Színes Fények
+option.COLORED_LIGHTS.comment          = Módosítja a fények színét, a hely és a fényforrás textúrájának összesített színe alapján (Egy Lélekfáklya kék fényt fog adni, ,míg egy sima Fáklya narancssárágt.). Az Iris-nek az 1.6-os vagy feletti verziója szükséges.
+option.COLORED_LIGHTS_VANILLA_LIGHTMAP_CONTRIBUTION = A Vanilla Fénytérkép hozzájárulása
+option.HANDHELD_LIGHTING               = Kézi Fényforrások
+option.HANDHELD_LIGHTING.comment       = A kézben tartott fényforrások körbevilágíttóhatnak. Ha a Színes Fények be van kapcsolva, akkor annak a beállításai szerint fog fényleni.
+option.HANDHELD_LIGHTING_INTENSITY     = Kézi Fényforrások Fényének Erőssége
+option.HANDHELD_LIGHTING_INTENSITY.comment = Adjusts the brightness of handheld light sources
+option.GTAO                            = Shader KE
+option.GTAO.comment                    = Földi Igazságokon alapuló, környezeti elzárás. (FIAKE). Puhább árnyékokat ad hozzá a sarkoknak.
+option.VANILLA_AO                      = Vanilla KE
+option.VANILLA_AO.comment              = A Minecraft saját, környezeti elzárása.
+option.AO_IN_SUNLIGHT                  = KE a Napfényben
+option.AO_IN_SUNLIGHT.comment          = Kell-e alkalmazni a shader környezeti elzárását, közvetlen napfényben/holdfényben.
+option.CLOUD_SHADOWS                   = Felhők Árnyékai
+option.CLOUD_SHADOWS.comment           = Árnyékok a felhők által.
+option.CLOUD_SHADOWS_INTENSITY         = Felhők Árnyékának Erőssége
+option.CLOUD_SHADOWS_INTENSITY.comment = Adjusts the intensity of cloud shadows
+option.SH_SKYLIGHT                     = SH Égvilágítás
+option.SH_SKYLIGHT.comment             = Szférikus harmonikus kódolást használ az irányított tetőablakhoz a Felvilágban, ami nagyon természetes eredményt biztosít.\nEz jól működik a FIAKE-val
+option.SSS_SHEEN                       = FASZ Fények
+option.SSS_SHEEN.comment               = Tükröződő "fényes" hatás a növényeken és a leveleken, elősegíti, hogy a magas fű és egyebek jobban összeolvadjanak a fűblokkal.
+option.SSS_INTENSITY                   = FASZ Erőssége
+option.SSS_INTENSITY.comment           = Állítja a Felszín Alatti Szóródást. (FASZ)
+option.SHADING_STRENGTH                = Mosás Erőssége
+option.SHADING_STRENGTH.comment        = Beállítja a közvetlen fényárnyékolás kontrasztját. Ennek az opciónak a csökkentésével a naptól távolabb eső, árnyékban nem lévő arcok fényesebbek lesznek; növelésével sötétebbé válik.
+
+option.SHADOW                          = Árnyékok
+option.SHADOW_PCF                      = Árnyékok Szűrése
+option.SHADOW_COLOR                    = Színes Árnyékok
+option.SHADOW_COLOR.comment            = Áttetsző blokkok árnyékolnak-e
+option.SHADOW_VPS                      = Módosítható-e az árnyékok simasága
+option.SHADOW_VPS.comment              = Az árnyékok megnagyobbodnak-e, minél távolabb vannak a forrástól
+option.shadowMapResolution             = Árnyék Minősége
+option.shadowDistance                  = Árnyék Mérete
+option.sunPathRotation                 = Napfény szöge
+option.SHADOW_PENUMBRA_SCALE           = Árnyékok Simasága
+option.SHADOW_PENUMBRA_SCALE.comment   = Entitás általi Árnyékok
+option.ENTITY_SHADOWS.comment          = Az entitások árnyékot vethetnek-e.\nKapcsolja ki ezt, hogy javítsa a teljesítményt a túlélési bázisokon nagy farmokon.
+option.BLOCK_ENTITY_SHADOWS            = Blokk-Entitás általi Árnyékok
+option.PIXELATED_SHADOWS               = Szögletesebb Árnyékok
+option.PIXELATED_SHADOWS.comment       = Az árnyék csatalkozik a blokk éleihez, ezzel, szögletesebbé teszi azokat.
+option.PIXELATED_SHADOWS_RESOLUTION    = Szögletesebb Árnyékok Minősége
+
+option.SUN_NR                          = Vörös
+option.SUN_NG                          = Zöld
+option.SUN_NB                          = Kék
+option.SUN_MR                          = Vörös
+option.SUN_MG                          = Zöld
+option.SUN_MB                          = Kék
+option.SUN_ER                          = Vörös
+option.SUN_EG                          = Zöld
+option.SUN_EB                          = Kék
+option.SUN_I                           = Napfény Erőssége
+option.MOON_R                          = Vörös
+option.MOON_G                          = Zöld
+option.MOON_B                          = Kék
+option.MOON_I                          = Holdfény Erőssége
+option.SKYLIGHT_I                      = Égfény Erőssége
+option.BOUNCED_LIGHT_I                 = Pattanó Napfény Erőssége
+option.CAVE_LIGHTING_I                 = Bányai Fény Erőssége
+option.LIGHTNING_FLASH                 = Villámlás Fénye
+option.NETHER_USE_BIOME_COLOR          = Használja-e a Biom Színét
+option.NETHER_I                        = Alvilági Környezeti Fények Erőssége
+option.NETHER_S                        = Alvilági Környezeti Fények Színtelítettsége
+option.NETHER_R                        = Vörös
+option.NETHER_G                        = Zöld
+option.NETHER_B                        = Kék
+option.END_LIGHT_R                     = Vörös
+option.END_LIGHT_G                     = Zöld
+option.END_LIGHT_B                     = Kék
+option.END_LIGHT_I                     = Végbeli Fény Erőssége
+option.END_AMBIENT_R                   = Vörös
+option.END_AMBIENT_G                   = Zöld
+option.END_AMBIENT_B                   = Kék
+option.END_AMBIENT_I                   = Végbeli Környezeti Fények Erőssége
+option.BLOCKLIGHT_R                    = Vörös
+option.BLOCKLIGHT_G                    = Zöld
+option.BLOCKLIGHT_B                    = Kék
+option.BLOCKLIGHT_I                    = Blokkok által Kiadott Fény Erőssége
+
+option.VOXEL_VOLUME_SIZE               = Kör alakú Dobható Entitások Árnyékának Mérete
+option.VOXEL_VOLUME_SIZE.comment       = Nagy erősségű becsapódásnál, megváltozhat-e az árnyék.
+suffix.VOXEL_VOLUME_SIZE               = m
+
+suffix.shadowMapResolution             = ²
+suffix.sunPathRotation                 = °
+
+value.shadowDistance.48.0              = 3 darabka
+value.shadowDistance.64.0              = 4 darabka
+value.shadowDistance.80.0              = 5 darabka
+value.shadowDistance.96.0              = 6 darabka
+value.shadowDistance.112.0             = 7 darabka
+value.shadowDistance.128.0             = 8 darabka
+value.shadowDistance.144.0             = 9 darabka
+value.shadowDistance.160.0             = 10 darabka
+value.shadowDistance.176.0             = 11 darabka
+value.shadowDistance.192.0             = 12 darabka
+value.shadowDistance.208.0             = 13 darabka
+value.shadowDistance.224.0             = 14 darabka
+value.shadowDistance.240.0             = 15 darabka
+value.shadowDistance.256.0             = 16 darabka
+value.shadowDistance.320.0             = 20 darabka
+value.shadowDistance.384.0             = 24 darabka
+value.shadowDistance.512.0             = 32 darabka
+value.shadowDistance.768.0             = 48 darabka
+value.shadowDistance.1024.0            = 64 darabka
+
+# Sky settings
+
+option.VANILLA_SUN                     = Vanilla Nap
+option.VANILLA_MOON                    = Vanilla Hold
+option.SUN_ANGULAR_RADIUS              = Nap Szögsugára
+option.MOON_ANGULAR_RADIUS             = Hold Szögsugára
+option.SKY_GROUND                      = Égi Föld
+option.SKY_GROUND.comment              = Látható-e a Föld, magasról
+option.STARS                           = Csillagok
+option.STARS.comment                   = Lesznek-e csillagok az égen este.
+option.STARS_INTENSITY                 = Csillagok Fényének Erőssége
+option.STARS_INTENSITY.comment         = Állítja a csillagok fényét, az éjszakai égen.
+option.STARS_COVERAGE                  = Csillagok Szétszóródása
+option.STARS_COVERAGE.comment          = Állítja azt, hogy mennyire fedje le az eget a csillagok.
+
+# Clouds
+option.CLOUDS_CUMULUS                       = Gomolyfelhők Felhők
+option.CLOUDS_CUMULUS.comment               = Alacsony magasságú térfogatú felhők, amelyek gomolyfelhőkhöz hasonlítanak
+option.CLOUDS_CUMULUS_PRIMARY_STEPS_H       = Első Lépések - Horizont
+option.CLOUDS_CUMULUS_PRIMARY_STEPS_Z       = Első Lépések - Zenics
+option.CLOUDS_CUMULUS_LIGHTING_STEPS        = Villámlás lépései
+option.CLOUDS_CUMULUS_AMBIENT_STEPS         = Környezeti lépések
+option.CLOUDS_CUMULUS_ALTITUDE              = Magasság
+suffix.CLOUDS_CUMULUS_ALTITUDE              = m
+option.CLOUDS_CUMULUS_THICKNESS             = Vastagság
+option.CLOUDS_CUMULUS_DENSITY               = Tömörség
+option.CLOUDS_CUMULUS_COVERAGE              = Lefedettség
+option.CLOUDS_CUMULUS_SIZE                  = Méret
+option.CLOUDS_CUMULUS_DETAIL_STRENGTH       = Részletek Minősége
+option.CLOUDS_CUMULUS_CURL_STRENGTH         = Torzítás Erőssége
+option.CLOUDS_CUMULUS_WIND_SPEED            = Szél Sebessége
+suffix.CLOUDS_CUMULUS_ALTITUDE              = m/s
+option.CLOUDS_CUMULUS_WIND_ANGLE            = Szél Szöge
+suffix.CLOUDS_CUMULUS_ALTITUDE              = °
+
+option.CLOUDS_ALTOCUMULUS                       = Középmagas Gomolyfelhők
+option.CLOUDS_ALTOCUMULUS.comment               = Alacsony magasságú térfogatú felhők, amelyek a Középmagas Gomolyfelhők hasonlítanak.
+option.CLOUDS_ALTOCUMULUS_PRIMARY_STEPS_H       = Első Lépések - Horizont
+option.CLOUDS_ALTOCUMULUS_PRIMARY_STEPS_Z       = Első Lépések - Zenics
+option.CLOUDS_ALTOCUMULUS_LIGHTING_STEPS        = Villámlás lépései
+option.CLOUDS_ALTOCUMULUS_AMBIENT_STEPS         = Környezeti lépések
+option.CLOUDS_ALTOCUMULUS_ALTITUDE              = Magasság
+suffix.CLOUDS_ALTOCUMULUS_ALTITUDE              = m
+option.CLOUDS_ALTOCUMULUS_THICKNESS             = Vasatgság
+option.CLOUDS_ALTOCUMULUS_DENSITY               = Tömörség
+option.CLOUDS_ALTOCUMULUS_COVERAGE              = Lefedettség
+option.CLOUDS_ALTOCUMULUS_SIZE                  = Méret
+option.CLOUDS_ALTOCUMULUS_DETAIL_STRENGTH       = Részletek Minősége
+option.CLOUDS_ALTOCUMULUS_CURL_STRENGTH         = Torzítás Erőssége
+option.CLOUDS_ALTOCUMULUS_WIND_SPEED            = Szél Sebessége
+suffix.CLOUDS_ALTOCUMULUS_ALTITUDE              = m/s
+option.CLOUDS_ALTOCUMULUS_WIND_ANGLE            = Szél Szöge
+suffix.CLOUDS_ALTOCUMULUS_ALTITUDE              = °
+
+option.CLOUDS_CUMULUS_CONGESTUS                       = Zsúfolt Gomolyfelhők
+option.CLOUDS_CUMULUS_CONGESTUS.comment               = Hatalmas, távoli térfogati felhők
+option.CLOUDS_CUMULUS_CONGESTUS_PRIMARY_STEPS_H       = Első Lépések - Horizont
+option.CLOUDS_CUMULUS_CONGESTUS_PRIMARY_STEPS_Z       = Első Lépések - Zenics
+option.CLOUDS_CUMULUS_CONGESTUS_LIGHTING_STEPS        = Villámlás lépései
+option.CLOUDS_CUMULUS_CONGESTUS_AMBIENT_STEPS         = Környezet Lépései
+option.CLOUDS_CUMULUS_CONGESTUS_ALTITUDE              = Magasság
+suffix.CLOUDS_CUMULUS_CONGESTUS_ALTITUDE              = m
+option.CLOUDS_CUMULUS_CONGESTUS_THICKNESS             = Vastagság
+option.CLOUDS_CUMULUS_CONGESTUS_DENSITY               = Tömörség
+option.CLOUDS_CUMULUS_CONGESTUS_COVERAGE              = Lefedettség
+option.CLOUDS_CUMULUS_CONGESTUS_SIZE                  = Méret
+option.CLOUDS_CUMULUS_CONGESTUS_DETAIL_STRENGTH       = Részletek Minősége
+option.CLOUDS_CUMULUS_CONGESTUS_CURL_STRENGTH         = Torzítás Erőssége
+option.CLOUDS_CUMULUS_CONGESTUS_WIND_SPEED            = Szél Sebessége
+suffix.CLOUDS_CUMULUS_CONGESTUS_ALTITUDE              = m/s
+option.CLOUDS_CUMULUS_CONGESTUS_WIND_ANGLE            = Szél Szögeú
+
+suffix.CLOUDS_CUMULUS_CONGESTUS_ALTITUDE              = °
+
+option.BLOCKY_CLOUDS                   = Kockás Felhők
+option.BLOCKY_CLOUDS.comment           = Vanilla stílusú térfogatú felhők. Ennek az opciónak az engedélyezése letiltja az összes többi felhőtípust.
+option.BLOCKY_CLOUDS_LAYER_2           = Második Réteg
+option.BLOCKY_CLOUDS_LAYER_2.comment   = A Vanilla stílusú térfogatú felhők második rétege! Ügyeljen arra, hogy ennek az opciónak az engedélyezése jobban megviseli az FPS-t.
+option.BLOCKY_CLOUDS_THICKNESS         = Vastagság
+option.BLOCKY_CLOUDS_THICKNESS.comment = Állítja a felhők vastagságát
+option.BLOCKY_CLOUDS_ALTITUDE          = Magasság
+option.BLOCKY_CLOUDS_ALTITUTE.comment  = Állítja a felhők magasságát
+option.BLOCKY_CLOUDS_ALTITUDE_2        = Második Réteg Vastagsága
+option.BLOCKY_CLOUDS_ALTITUDE_2.comment = Állítja a második réteg vastagsága
+option.BLOCKY_CLOUDS_ROUNDNESS         = Gömbölyűség
+option.BLOCKY_CLOUDS_ROUNDNESS.comment = A felhők élének gömbölyűsége
+option.BLOCKY_CLOUDS_SHARPNESS         = Élesség
+option.BLOCKY_CLOUDS_SHARPNESS.comment = A felhők élének élessége
+
+option.CLOUDS_TEMPORAL_UPSCALING       = Időbeli felskálázás
+option.CLOUDS_DAILY_WEATHER            = Napi Változatos Időjárás
+option.CLOUDS_DAILY_WEATHER.comment    = A felhők reagálnak az időjárásra.
+option.CLOUDS_AERIAL_PERSPECTIVE_BOOST = Légi Perspektíva Gyorsítás
+option.CLOUDS_SCALE                    = Méret
+option.CLOUDS_SCALE.comment            = Az összes felhőnél léptéktényezőként alkalmazzák, hogy a felhőket reális méretből és magasságból olyan magasságba hozza, amely elérhető a játék során. Ha ez az érték 1,0, a felhők valósághűen helyezkednek el, az első réteg alapértelmezés szerint 800 blokkal feljebb. Ha ez az érték magasabb, akkor a felhők kisebbnek tűnnek, és közelebb képződnek a talajhoz. Ez a felhőárnyék méretét is befolyásolja
+suffix.CLOUDS_SCALE                    = ×
+value.CLOUDS_TEMPORAL_UPSCALING.1      = Ki
+value.CLOUDS_TEMPORAL_UPSCALING.2      = 4×
+value.CLOUDS_TEMPORAL_UPSCALING.3      = 9×
+value.CLOUDS_TEMPORAL_UPSCALING.4      = 16×
+
+option.CLOUDS_CIRRUS                       = Pehelyfelhők
+option.CLOUDS_CIRRUS.comment               = Planáris Pehelyfelhők
+option.CLOUDS_CIRRUS_LIGHTING_STEPS        = Villámlás Lépései
+option.CLOUDS_CIRRUS_AMBIENT_STEPS         = Környezet Lépései
+option.CLOUDS_CIRRUS_ALTITUDE              = Magasság
+suffix.CLOUDS_CIRRUS_ALTITUDE              = m
+option.CLOUDS_CIRRUS_THICKNESS             = Vastagság
+option.CLOUDS_CIRRUS_DENSITY               = Tömörség
+option.CLOUDS_CIRRUS_COVERAGE              = Lefedettség
+option.CLOUDS_CIRRUS_SIZE                  = Méret
+option.CLOUDS_CIRRUS_DETAIL_STRENGTH       = Részletek Minősége
+option.CLOUDS_CIRRUS_CURL_STRENGTH         = Torzítás
+option.CLOUDS_CIRRUS_WIND_SPEED            = Szél Sebessége
+suffix.CLOUDS_CIRRUS_ALTITUDE              = m/s
+option.CLOUDS_CIRRUS_WIND_ANGLE            = Szél Szöge
+suffix.CLOUDS_CIRRUS_ALTITUDE              = °
+
+option.AURORA_NORMAL                   = Bármilyen biomban lehet-e Auróra
+option.AURORA_SNOW                     = Hideg/Fagyos biomokban lehet-e Auróra
+option.AURORA_BRIGHTNESS               = Auróra Fénye
+option.AURORA_FREQUENCY                = Auróra Megjelenésének Gyakorisága
+option.AURORA_CLOUD_LIGHTING           = Felhő Fényének Hozzájárulása
+option.AURORA_GROUND_LIGHTING          = Földi Fények Hozzájárulása
+
+value.AURORA_NORMAL.AURORA_NEVER       = Soha
+value.AURORA_NORMAL.AURORA_RARELY      = Ritkán
+value.AURORA_NORMAL.AURORA_ALWAYS      = Mindig
+
+value.AURORA_SNOW.AURORA_NEVER         = Soha
+value.AURORA_SNOW.AURORA_RARELY        = Ritkán
+value.AURORA_SNOW.AURORA_ALWAYS        = Mindig
+
+# Fog settings
+
+option.BORDER_FOG                      = Nem Szimulált Darabkai Vonali Köd
+option.BORDER_FOG.comment              = Sűrű köd öleli át a szimulációs távolság széleit, hogy elrejtse a darabszegélyeket.
+option.CAVE_FOG                        = Bányai Köd
+option.CAVE_FOG.comment                = Könnyű, enyhén izzó köd a föld alatt. Ez sokkal hangulatosabbá teszi a nagy barlangokat, és segít látni a barlang alakját
+option.BLOOMY_FOG                      = Virágos Köd
+option.BLOOMY_FOG.comment              = Intense bloom in fog. This gives the appearance of light from bright objects scattering within the fog, and illuminates the area behind them. Almost no performance cost
+option.BLOOMY_FOG_INTENSITY            = Virágos Köd Erőssége
+option.BLOOMY_FOG_INTENSITY.comment    = Beállítja a "virágos köd" intenzitását
+option.NETHER_FOG_INTENSITY            = Alvilági Köd Erőssége
+option.VL                              = Térfogatú Fény
+option.VL.comment                      = Fénytengelyeket és változó ködsűrűséget ad hozzá
+option.VL_RENDER_SCALE                 = Térfogatú Szimulációs Távolság
+option.AIR_FOG_CLOUDY_NOISE            = Felhős Köd
+option.AIR_FOG_CLOUDY_NOISE.comment    = Finom felhős formák a ködben, a legjobban reggel láthatók.\nTérfogatú köd szükséges!
+option.AIR_FOG_COLORED_LIGHT_SHAFTS    = Színes Fénytengelyek
+option.AIR_FOG_COLORED_LIGHT_SHAFTS.comment = Az áttetsző tárgyakon áthaladó fénytengelyeket színük színezi.
+
+option.AIR_FOG_RAYLEIGH_FALLOFF_START     = Rayleif Leesés Kezdődése
+option.AIR_FOG_RAYLEIGH_FALLOFF_START.comment = Tengerszint feletti magasság, ahol a Rayleigh köd csökkenni kezd
+option.AIR_FOG_RAYLEIGH_FALLOFF_HALF_LIFE = Rayleif Leesés Felezése
+option.AIR_FOG_RAYLEIGH_FALLOFF_HALF_LIFE.comment = Magasság a Rayleif Leesés Kezdődése felett, ahol a Rayleigh köd sűrűsége felére csökken
+option.AIR_FOG_MIE_FALLOFF_START          = Mie Leesés Kezdődése
+option.AIR_FOG_MIE_FALLOFF_START.comment  = Tengerszint feletti magasság, ahol a mie köd csökkenni kezd
+option.AIR_FOG_MIE_FALLOFF_HALF_LIFE      = Mie Leesés Felezése
+option.AIR_FOG_MIE_FALLOFF_HALF_LIFE.comment = Magasság a Mie Leesés Kezdődése felett, ahol a mie köd sűrűsége felére csökken
+
+option.AIR_FOG_RAYLEIGH_DENSITY        = Normál Köd Tömörsége
+option.AIR_FOG_RAYLEIGH_R              = §4Vörös
+option.AIR_FOG_RAYLEIGH_G              = §2Zöld
+option.AIR_FOG_RAYLEIGH_B              = §1Kék
+
+option.AIR_FOG_RAYLEIGH_DENSITY_RAIN   = Esős Köd Tömörsége
+option.AIR_FOG_RAYLEIGH_R_RAIN         = §4Vörös
+option.AIR_FOG_RAYLEIGH_G_RAIN         = §2Zöld
+option.AIR_FOG_RAYLEIGH_B_RAIN         = §1Kék
+
+option.AIR_FOG_RAYLEIGH_DENSITY_ARID   = Forró/Sivatagi Köd Tömörsége
+option.AIR_FOG_RAYLEIGH_R_ARID         = §4Vörös
+option.AIR_FOG_RAYLEIGH_G_ARID         = §2Green
+option.AIR_FOG_RAYLEIGH_B_ARID         = §1Blue
+
+option.AIR_FOG_RAYLEIGH_DENSITY_SNOWY  = Havas Köd Tömörsége
+option.AIR_FOG_RAYLEIGH_R_SNOWY        = §4Red
+option.AIR_FOG_RAYLEIGH_G_SNOWY        = §2Green
+option.AIR_FOG_RAYLEIGH_B_SNOWY        = §1Blue
+
+option.AIR_FOG_RAYLEIGH_DENSITY_TAIGA  = Taigai Köd Tömörsége
+option.AIR_FOG_RAYLEIGH_R_TAIGA        = §4Vörös
+option.AIR_FOG_RAYLEIGH_G_TAIGA        = §2Zöld
+option.AIR_FOG_RAYLEIGH_B_TAIGA        = §1Kék
+
+option.AIR_FOG_RAYLEIGH_DENSITY_JUNGLE = Dzsungeli Köd Tömörsége
+option.AIR_FOG_RAYLEIGH_R_JUNGLE       = §4Vörös
+option.AIR_FOG_RAYLEIGH_G_JUNGLE       = §2Zöld
+option.AIR_FOG_RAYLEIGH_B_JUNGLE       = §1Kék
+
+option.AIR_FOG_RAYLEIGH_DENSITY_SWAMP  = Mocsári Köd Tömörség
+option.AIR_FOG_RAYLEIGH_R_SWAMP        = §4Vörös
+option.AIR_FOG_RAYLEIGH_G_SWAMP        = §2Zöld
+option.AIR_FOG_RAYLEIGH_B_SWAMP        = §1Kék
+
+option.AIR_FOG_MIE_DENSITY_MORNING     = Reggeli Köd Tömörsége
+option.AIR_FOG_MIE_DENSITY_NOON        = Déli Köd Tömörsége
+option.AIR_FOG_MIE_DENSITY_EVENING     = Esti Köd Tömörsége
+option.AIR_FOG_MIE_DENSITY_MIDNIGHT    = Éjszakai Köd Tömörsége
+option.AIR_FOG_MIE_DENSITY_RAIN        = Esős Köd Tömörsége
+option.AIR_FOG_MIE_DENSITY_BLUE_HOUR   = Hajnali/Alkonyati Köd Tömörsége
+# Materials settings
+
+option.NORMAL_MAPPING                  = Normál Térképezés
+option.NORMAL_MAPPING.comment          = Az erőforráscsomag által biztosított normál térképek használata. Engedélyezze ezt, ha „PBR” erőforráscsomagot használ.
+option.SPECULAR_MAPPING                = Tükör Térképezés
+option.SPECULAR_MAPPING.comment        = Használja-e az erőforráscsomag által biztosított tükörtérképeket. Engedélyezze ezt, ha „PBR” erőforráscsomagot használ
+option.POM                             = Parallax okklúziós térképezés
+option.TEXTURE_FORMAT                  = Textúra formátuma
+option.TEXTURE_FORMAT.comment          = Az erőforráscsomag által használt textúraformátum. A legtöbb modern erőforráscsomag a lab_p_b_r-t használja, míg a SEUS-szal való együttműködésre tervezett csomagok OldPBR-t használhatnak.
+option.HARDCODED_SPECULAR              = Nehézkódolt Tükröződés
+option.HARDCODED_SPECULAR.comment      = Kemény kódolt tükörreflexiók egyes blokkoknál (pl. fémeknél)
+option.HARDCODED_EMISSION              = Nehézkódolt Kibocsátás
+option.HARDCODED_EMISSION.comment      = Nehézkódolt Kibocsátás a kézi fényforrásokhoz, pl Fáklya.
+option.HARDCODED_SSS                   = Hardcoded FASZ
+option.HARDCODED_SSS.comment           = Nehézkódolt Felszín Alatti Szóródás egyes blokkoknál (pl. Levélblokkok)
+option.RAIN_PUDDLES                    = Esőtócsák
+option.EMISSION_STRENGTH               = Kibócsátás Erőssége
+option.EMISSION_STRENGTH.comment       = Beállítja a sugárzó tárgyak, például Fáklyák fényerejét. Ez nem befolyásolja az öntött fény fényerejét, csak magának a fényforrásnak a fényerejét. Ez a nehézkódolt kibocsátásra is hatással van
+option.DIRECTIONAL_LIGHTMAPS           = Irányított Fénytérképek
+option.DIRECTIONAL_LIGHTMAPS.comment   = A normál térképek hatással voltak a blokk- és égmegvilágításra. A módszer korlátai miatt vizuális problémákat okozhat
+option.DIRECTIONAL_LIGHTMAPS_INTENSITY = Irányított Fénytérképek Erőssége
+option.DIRECTIONAL_LIGHTMAPS_INTENSITY.comment = Állítja az irányított fénytérképek erősségét
+option.POM_DEPTH                       = Parallax Mélysége
+option.POM_DEPTH.comment               = Milyen mélyre süllyedhet a POM egy blokkba
+option.POM_SAMPLES                     = Parallax Minták
+option.POM_SAMPLES.comment             = Beállítja a POM minőségét a teljesítmény rovására
+option.POM_SHADOW                      = POM Önárnyékolás
+option.POM_SHADOW.comment              = Önárnyékolás a POM-nak. Tükörképes Térképezés szükséges.
+option.POM_SHADOW_SAMPLES              = POM Önárnyékolás Minták
+option.POM_SHADOW_SAMPLES.comment      = Beállítja a Parallax Árnyékok minőségét a teljesítmény rovására
+option.POM_SLOPE_NORMALS               = POM Lejtő Normál Értékek
+option.POM_DISTANCE                    = POM Távolság
+
+suffix.POM_DEPTH                       = m
+suffix.POM_DISTANCE                    = m
+
+value.TEXTURE_FORMAT.TEXTURE_FORMAT_LAB = labPBR
+value.TEXTURE_FORMAT.TEXTURE_FORMAT_OLD = Régi PBR
+
+option.ENVIRONMENT_REFLECTIONS         = Környezeti Tükröződések
+option.ENVIRONMENT_REFLECTIONS.comment = Képernyőtér-tükröződések. A vizet és a fényes blokkokat tükrözi a környezetükben. Nagy teljesítményhatás.
+option.SKY_REFLECTIONS                 = Égi Tükröződések
+option.SKY_REFLECTIONS.comment         = A vízen, vizes, és fényes blokkokon visszatökröződik az ég.
+option.SSR_ROUGHNESS_SUPPORT           = Érdesség Támogatása
+option.SSR_ROUGHNESS_SUPPORT.comment   = A durva felületeken lévő tükröződéseket valójában érdesnek látja. Nagy teljesítményhatás
+option.SSR_RAY_COUNT                   = Sugarak Számlálása
+option.SSR_RAY_COUNT.comment           = A durva visszaverődésekhez nyomon követett sugarak száma. A több sugárzás kevesebb (textúrai) zajt, de rosszabb teljesítményt jelent
+option.SSR_INTERSECTION_STEPS_SMOOTH   = Kereszteződés lépései - Sima
+option.SSR_INTERSECTION_STEPS_SMOOTH.comment = Beállítja a sima tükröződések pontosságát, a teljesítmény rovására
+option.SSR_INTERSECTION_STEPS_ROUGH    = Kereszteződés Lépcsőfokai – Durva
+option.SSR_INTERSECTION_STEPS_ROUGH.comment = Beállítja a visszaverődések pontosságát, a teljesítmény rovására.
+option.SSR_REFINEMENT_STEPS            = Finomítási Lépések
+option.SSR_REFINEMENT_STEPS.comment    = Beállítja az összes tükröződés pontosságát, a teljesítmény rovására.
+option.SSR_ROUGHNESS_THRESHOLD         = Érdességi Küszöb
+option.SSR_ROUGHNESS_THRESHOLD.comment = Beállítja, hogy milyen sima felületnek kell lennie a tükröződések megjelenéséhez.
+option.SSR_PREVIOUS_FRAME.comment      = Használja a korábbi keretadatokat a tükröződésekhez, hogy Áttetszőek és Tükröződések jelenjenek meg a tükröződésekben.
+
+# Water settings
+
+option.WATER_CAUSTICS                  = Vízi Fénybeesések
+option.WATER_CAUSTICS.comment          = Táncoló fényminták a víz alatt
+option.WATER_FOAM                      = Vízi Hab
+option.WATER_FOAM.comment              = Fehér kiemeli, ahol a víz találkozik a tereppel. Egyes esetekben segít a víz könnyebben láthatóvá tételében
+option.SNELLS_WINDOW                   = "Snell Ablaka"
+option.SNELLS_WINDOW.comment           = Teljes belső visszaverődés a víz alatt
+option.WATER_TEXTURE                   = Víz Textúrája
+option.WATER_TEXTURE.comment           = A Vannila víz textúrájának használata.\n\nKi – nincs víz textúrája.\nKiemelések: a víz textúrája kiemeli a vizet, például ahogyan a Bedrock RTX-ben.\nVanilla: a víz textúráját úgy használják, mint bármely más textúrát.
+option.BIOME_WATER_COLOR               = Biom Színe Alapján Színezett Víz
+option.BIOME_WATER_COLOR.comment       = A vízfelvétel figyelembe veszi a biom víz színét
+option.WATER_REFRACTION                = Vízi Fénytörés
+option.WATER_REFRECTION.comment        = Fénytörés a víz mögött. Nagyon kis teljesítményhatás
+option.WATER_REFRACTION_INTENSITY      = Vízi Fénytörés Erőssége
+option.WATER_REFRACTION_INTENSITY.comment = Beállítja a víz fénytörésének intenzitását
+
+value.WATER_TEXTURE.WATER_TEXTURE_OFF       = Ki
+value.WATER_TEXTURE.WATER_TEXTURE_HIGHLIGHT = Kiemelések
+value.WATER_TEXTURE.WATER_TEXTURE_VANILLA   = Vanilla
+
+option.WATER_WAVES                     = Be
+option.WATER_WAVE_ITERATIONS           = Iterációk
+option.WATER_WAVE_STRENGTH             = Erősség
+option.WATER_WAVE_FREQUENCY            = Gyakoriság
+option.WATER_WAVE_SPEED_STILL          = Sebesség (Álóó Víz)
+option.WATER_WAVE_SPEED_FLOWING        = Sebsség (Folyó Víz)
+option.WATER_WAVE_PERSISTENCE          = Kitartás
+option.WATER_WAVE_LACUNARITY           = Hiányosság
+option.WATER_PARALLAX                  = Vízi Parallax
+option.WATER_PARALLAX.comment          = A víz hullámait 3D-ben jeleníti meg
+option.WATER_DISPLACEMENT              = Vízi Hullámkimosás
+option.WATER_DISPLACEMENT.comment      = A levelek hullámzásához hasonlóan magát a víz geometriáját is enyhén hullámossá teszi, így a partvonal kevésbé tűnik laposnak
+
+option.WATER_ABSORPTION_R              = Vörös Szín Elnyelése
+option.WATER_ABSORPTION_G              = Zöld Szín Elnyelése
+option.WATER_ABSORPTION_B              = Kék Szín Elnyelése
+option.WATER_SCATTERING                = Szóródás
+
+option.WATER_ABSORPTION_R_UNDERWATER   = Vörös Szín Elnyelése - Víz Alatt
+option.WATER_ABSORPTION_G_UNDERWATER   = Zöld Szín Elnyelése - Víz Alatt
+option.WATER_ABSORPTION_B_UNDERWATER   = Kék Szín Elnyelése - Víz Alatt
+option.WATER_SCATTERING_UNDERWATER     = Szóródás - Víz Alatt
+
+# Post-processing settings
+
+option.BLOOM                           = Virágzás
+option.BLOOM.comment                   = Lágy "világító" hatás a világos területek és fényforrások körül
+option.BLOOM_INTENSITY                 = Virágzás Erőssége
+option.BLOOM_INTENSITY.comment         = Állítja, hogy mennyire befojásolja a virgázás a végső képet
+option.DOF                             = Mélységélesség
+option.DOG.comment                     = Fókuszeffektus mint egy fényképezőn – elhomályosítja a nem éles területeket
+option.DOF_INTENSITY                   = Mélységélesség Erőssége
+option.DOF_INTENSITY.comment           = Állítja a mélségélesség erősségét
+option.DOF_SAMPLES                     = Mélységélesség Minták
+option.DOF_SAMPLES.comment             = A mélységélességhez vett minták száma. A nagyobb mintaszám jobb minőségű elmosódást eredményez, de nagyobb teljesítményt igényel
+option.DOF_FOCUS                       = Mélységélesség Fókusza
+option.DOF_FOCUS.comment               = Fókusztávolság a mélységélességhez
+option.MOTION_BLUR                     = Mozgási Elmosódás
+option.MOTION_BLUR.comment             = Moziszerű elmosódás, amely szintén hasznos az alacsony képkockafrekvenciák kisimítására, de utazási rosszullétet okozhat
+option.MOTION_BLUR_INTENSITY           = Mozgási Elmosódás Erőssége
+option.MOTION_BLUR_INTENSITY.comment   = Állítja a Mozgási Elmosódás Erősségét
+option.TAA                             = IÉ
+option.TAA.comment                     = Időbéli Élsimítás. Jelentősen javítja a képminőséget és a zajszintet, de olyan időbeli műtermékeket is bevezethet, mint a villogás és a szellemkép. Az IÉ Feljavítás szükséges!
+option.FXAA                            = FXAA
+option.FXAA.comment                    = Lágyítja a széleket. Az IÉ-vel együtt működik, különösen a mozgásban segít. Nagyon hasznos a IÉF-val
+option.TAAU                            = IÉ Feljavítás
+option.TAAU.comment                    = Csökkentett felbontásban jeleníti meg a scene_color-t, és az IÉ-t használja a felskálázásához. Jelentősen javítja a teljesítményt, de csökkentheti a képminőséget és növelheti az időbeli műtermékek számát
+option.TAAU_RENDER_SCALE               = IÉF Szimulálási Skála
+option.TAAU_RENDER_SCALE.comment       = Felbontási skála, amelyen a jelenet_színe megjelenik, ha az IÉF Feljavítás engedélyezve van. Ha az eredeti felbontás 1920x1080, az IÉF Szimulációs Skála pedig 0,75 (alapértelmezett), akkor a scene_color 1440x810-es felbontásban kerül megjelenítésre.
+option.CAS                             = Képélesítés
+option.CAS.comment                     = Élesíti a végső képet (kontraszt-adaptív élesítés)
+option.CAS_INTENSITY                   = Képélesítés Erőssége
+option.CAS_INTENSITY.comment           = Beállítja a Képélesítés hatását a képre
+option.VIGNETTE                        = Sötétítési Hatás
+option.VIGNETTE.comment                = Sötétíti a képernyő széleit
+option.VIGNETTE_INTENSITY              = Sötétítési Hatás Erőssége
+option.VIGNETTE_INTENSITY.comment      = Állítja a Sötétségi Hatás Erősségét
+
+value.DOF_FOCUS.-1.0                   = Automatikus
+
+option.tonemap                         = Hangtérkép Kezelő
+
+value.tonemap.academy_fit              = Academy Fit
+value.tonemap.academy_rrt              = Academy RRT
+value.tonemap.tonemap_hejl_2015        = Hejl 2015
+value.tonemap.tonemap_hejl_burgess     = Hejl-Burgess
+value.tonemap.tonemap_lottes           = Lottes
+value.tonemap.tonemap_uncharted_2      = Uncharted 2
+value.tonemap.tonemap_tech             = Tech
+value.tonemap.tonemap_ozius            = Ozius
+value.tonemap.tonemap_reinhard         = Reinhard
+value.tonemap.tonemap_reinhard_jodie   = Reinhard-Jodie
+
+# Color Grading
+
+option.GRADE_BRIGHTNESS                = Fényerő
+option.GRADE_CONTRAST                  = Kontraszt
+option.GRADE_SATURATION                = Színtelítettség
+option.GRADE_WHITE_BALANCE             = Fehéregyensúly
+option.GRADE_ORANGE_SAT_BOOST          = Narancs Színtelítettség Erősítő
+option.GRADE_TEAL_SAT_BOOST            = Türkizkék Színtelítettség Erősítő
+option.GRADE_GREEN_SAT_BOOST           = Zöld Színtelítettség Erősítő
+option.GRADE_GREEN_HUE_SHIFT           = Zöld Színárnyalat Eltolása
+suffix.GRADE_WHITE_BALANCE             = K
+suffix.GRADE_GREEN_HUE_SHIFT           = °
+
+option.PURKINJE_SHIFT                  = Purkinje Etolás
+option.PURKINJE_SHIFT.option           = Szimulálja a gyenge megvilágítás hatását az emberi látásra; minden szín telítetlenítése és a vörös árnyalatok elsötétítése
+option.PURKINJE_SHIFT_INTENSITY        = Purkinje Eltolás Intenzitása
+
+# Exposure
+
+option.AUTO_EXPOSURE                         = Automatikus Expozíció
+option.AUTO_EXPOSURE_BIAS                    = Expóziós Torzitás
+option.AUTO_EXPOSURE_MIN                     = Minimum Expozíció
+option.AUTO_EXPOSURE_MAX                     = Maximum Expózíció
+option.AUTO_EXPOSURE_RATE_DIM_TO_BRIGHT      = Expóziós Arány - Növekedés
+option.AUTO_EXPOSURE_RATE_BRIGHT_TO_DIM      = Expóziós Arány - Csökkenő
+option.MANUAL_EXPOSURE_VALUE                 = Manuális Expóziós Arány
+option.MANUAL_EXPOSURE_USE_SCREEN_BRIGHTNESS = Féynerő Csúszka Használata
+option.MANUAL_EXPOSURE_USE_SCREEN_BRIGHTNESS.comment = Az expozíciós érték interpolál a minimális expozíció és a maximális megvilágítás között a Videóbeállítások menü Fényerő csúszkája alapján
+option.HISTOGRAM_BINS                        = Hisztogram tárolók
+option.HISTOGRAM_TARGET                      = Hisztogram cél CDF érték
+
+value.AUTO_EXPOSURE.AUTO_EXPOSURE_SIMPLE    = Szimpla
+value.AUTO_EXPOSURE.AUTO_EXPOSURE_HISTOGRAM = Hisztogram
+value.AUTO_EXPOSURE.AUTO_EXPOSURE_OFF       = Ki
+
+# Misc settings
+
+option.DEBUG_VIEW                      = Hibakeresési Nézet
+option.DEBUG_SAMPLER                   = Hibakeresési Vizsgáló
+option.WHITE_WORLD                     = Fehér Világ
+option.WHITE_WORLD.comment             = Minden albedó textúrát fehérre állít
+option.TONEMAP_COMPARISON              = Hangtérkép Összehasonlítása
+option.TONEMAP_COMPARISON.comment      = Hasonlítsa össze a képernyő bal és jobb felében található két hangszínleképező funkciót
+option.tonemap_left                    = Bal Hangtérkép
+option.tonemap_right                   = Jobb Hangtérkép
+option.FANCY_NETHER_PORTAL             = Csicsás Alvilági Portál
+option.FANCY_NETHER_PORTAL.comment     = Az EminGT Complementary Reimagined Shader által ihletett Csicsás Alvilági Portál effektus, köszönöm Eminnek, hogy felhasználhattam az ötletét! Előfordulhat, hogy egyes erőforráscsomagokkal nem működik olyan jól
+option.CUSTOM_SKY                      = Egyedi Égbolt
+option.CUSTOM_SKY.comment              = Bekapcsolja az Egyedi Égboltot, szükséges, ahhoz, hogy egy Egyedi Égbolt megjelenjen az erőforráscsomagodból.
+option.CUSTOM_SKY_BRIGHTNESS           = Egyedi Égbolt Fényereje
+option.CUSTOM_SKY_BRIGHTNESS.comment   = Beállítja az Egyedi Égbolt Fényerejét
+option.NOISE_ON_DH_TERRAIN             = Textúrazaj a DH terepen
+
+value.DEBUG_VIEW.DEBUG_VIEW_NONE       = Ki
+value.DEBUG_VIEW.DEBUG_VIEW_SAMPLER    = Vizsgáló
+value.DEBUG_VIEW.DEBUG_VIEW_WEATHER    = Időjárás
+value.DEBUG_VIEW.DEBUG_VIEW_HISTOGRAM  = Hisztogram
+
+value.tonemap_left.academy_fit            = Academy Fit
+value.tonemap_left.academy_rrt            = Academy RRT
+value.tonemap_left.tonemap_lottes         = Lottes
+value.tonemap_left.tonemap_hejl_2015      = Hejl 2015
+value.tonemap_left.tonemap_hejl_burgess   = Hejl-Burgess
+value.tonemap_left.tonemap_uncharted_2    = Uncharted 2
+value.tonemap_left.tonemap_tech           = Tech
+value.tonemap_left.tonemap_ozius          = Ozius
+value.tonemap_left.tonemap_reinhard       = Reinhard
+value.tonemap_left.tonemap_reinhard_jodie = Reinhard-Jodie
+
+value.tonemap_right.academy_fit            = Academy Fit
+value.tonemap_right.academy_rrt            = Academy RRT
+value.tonemap_right.tonemap_lottes         = Lottes
+value.tonemap_right.tonemap_hejl_burgess   = Hejl-Burgess
+value.tonemap_right.tonemap_hejl_2015      = Hejl 2015
+value.tonemap_right.tonemap_uncharted_2    = Uncharted 2
+value.tonemap_right.tonemap_tech           = Tech
+value.tonemap_right.tonemap_ozius          = Ozius
+value.tonemap_right.tonemap_reinhard       = Reinhard
+value.tonemap_right.tonemap_reinhard_jodie = Reinhard-Jodie
+
+# Box
+
+option.BOX_MODE                 = Doboz Mód
+option.BOX_MODE.comment         = Kijelölés Vázlatdoboz mód\n\nEgyik Sem: Alapértelmezett\nSzín: Felhasználói szín\nSzivárvány: Csicsás RGB effektus
+value.BOX_MODE.BOX_MODE_NONE    = Egyik Sem
+value.BOX_MODE.BOX_MODE_COLOR   = Szín
+value.BOX_MODE.BOX_MODE_RAINBOW = Szívárvány
+option.BOX_COLOR_R              = Vörös
+option.BOX_COLOR_G              = Zöld
+option.BOX_COLOR_B              = Kék
+option.BOX_EMISSION             = Kibocsátás
+option.BOX_EMISSION.comment     = Skála színe elmúlt 1. Virágzást igényel.
+option.BOX_LINE_WIDTH           = Vonal Szélessége
+
+# Daily Weather System
+
+option.WEATHER_DAY                         = Nap
+value.WEATHER_DAY.-1                       = Random
+
+option.WEATHER_D0_CLOUDS_CUMULUS_MIN       = Minimum Gomolyfelhő Lefedettség
+option.WEATHER_D0_CLOUDS_CUMULUS_MAX       = Maximum Gomolyfelhő Lefedettség
+option.WEATHER_D0_CLOUDS_ALTOCUMULUS_MIN   = Minimum Magas Gomolyfelhő Lefedettség
+option.WEATHER_D0_CLOUDS_ALTOCUMULUS_MAX   = Maximum Magas Gomolyfelhő Lefedettség
+option.WEATHER_D0_CLOUDS_CIRRUS            = Pehelyfelhő Lefedettség
+option.WEATHER_D0_CLOUDS_CC                = Pelyhesgomolyfelhő Lefedettség
+option.WEATHER_D0_FOGGINESS                = Ködösség
+option.WEATHER_D0_CLOUDS_CUMULUS_CONGESTUS_AMOUNT = Zsúfolt Gomolyfelhők
+option.WEATHER_D0_CLOUDS_STRATUS_AMOUNT    = Réteges Felhők
+option.WEATHER_D1_CLOUDS_CUMULUS_MIN       = Minimum Gomolyfelhő Lefedettség
+option.WEATHER_D1_CLOUDS_CUMULUS_MAX       = Maximum Gomolyfelhő Lefedettség
+option.WEATHER_D1_CLOUDS_ALTOCUMULUS_MIN   = Minimum Magas Gomolyfelhő Lefedettség
+option.WEATHER_D1_CLOUDS_ALTOCUMULUS_MAX   = Maximum Magas Gomolyfelhő Lefedettség
+option.WEATHER_D1_CLOUDS_CIRRUS            = Pehelyfelhő Lefedettség
+option.WEATHER_D1_CLOUDS_CC                = Pelyhesgomolyfelhő Lefedettség
+option.WEATHER_D1_FOGGINESS                = Ködösség
+option.WEATHER_D1_CLOUDS_CUMULUS_CONGESTUS_AMOUNT = Zsúfolt Gomolyfelhők
+option.WEATHER_D1_CLOUDS_STRATUS_AMOUNT    = Réteges Felhők
+option.WEATHER_D2_CLOUDS_CUMULUS_MIN       = Minimum Gomolyfelhő Lefedettség
+option.WEATHER_D2_CLOUDS_CUMULUS_MAX       = Maximum Gomolyfelhő Lefedettség
+option.WEATHER_D2_CLOUDS_ALTOCUMULUS_MIN   = Minimum Magas Gomolyfelhő Lefedettség
+option.WEATHER_D2_CLOUDS_ALTOCUMULUS_MAX   = Maximum Magas Gomolyfelhő Lefedettség
+option.WEATHER_D2_CLOUDS_CIRRUS            = Pehelyfelhő Lefedettség
+option.WEATHER_D2_CLOUDS_CC                = Pelyhesgomolyfelhő Lefedettség
+option.WEATHER_D2_FOGGINESS                = Ködösség
+option.WEATHER_D2_CLOUDS_CUMULUS_CONGESTUS_AMOUNT = Zsúfolt Gomolyfelhők
+option.WEATHER_D2_CLOUDS_STRATUS_AMOUNT    = Réteges Felhők
+option.WEATHER_D3_CLOUDS_CUMULUS_MIN       = Minimum Gomolyfelhő Lefedettség
+option.WEATHER_D3_CLOUDS_CUMULUS_MAX       = Maximum Gomolyfelhő Lefedettség
+option.WEATHER_D3_CLOUDS_ALTOCUMULUS_MIN   = Minimum Magas Gomolyfelhő Lefedettség
+option.WEATHER_D3_CLOUDS_ALTOCUMULUS_MAX   = Maximum Magas Gomolyfelhő Lefedettség
+option.WEATHER_D3_CLOUDS_CIRRUS            = Pehelyfelhő Lefedettség
+option.WEATHER_D3_CLOUDS_CC                = Pelyhesgomolyfelhő Lefedettség
+option.WEATHER_D3_FOGGINESS                = Ködösség
+option.WEATHER_D3_CLOUDS_CUMULUS_CONGESTUS_AMOUNT = Zsúfolt Gomolyfelhők
+option.WEATHER_D3_CLOUDS_STRATUS_AMOUNT    = Réteges Felhők
+option.WEATHER_D4_CLOUDS_CUMULUS_MIN       = Minimum Gomolyfelhő Lefedettség
+option.WEATHER_D4_CLOUDS_CUMULUS_MAX       = Maximum Gomolyfelhő Lefedettség
+option.WEATHER_D4_CLOUDS_ALTOCUMULUS_MIN   = Minimum Magas Gomolyfelhő Lefedettség
+option.WEATHER_D4_CLOUDS_ALTOCUMULUS_MAX   = Maximum Magas Gomolyfelhő Lefedettség
+option.WEATHER_D4_CLOUDS_CIRRUS            = Pehelyfelhő Lefedettség
+option.WEATHER_D4_CLOUDS_CC                = Pelyhesgomolyfelhő Lefedettség
+option.WEATHER_D4_FOGGINESS                = Ködösség
+option.WEATHER_D4_CLOUDS_CUMULUS_CONGESTUS_AMOUNT = Zsúfolt Gomolyfelhők
+option.WEATHER_D4_CLOUDS_STRATUS_AMOUNT    = Réteges Felhők
+option.WEATHER_D5_CLOUDS_CUMULUS_MIN       = Minimum Gomolyfelhő Lefedettség
+option.WEATHER_D5_CLOUDS_CUMULUS_MAX       = Maximum Gomolyfelhő Lefedettség
+option.WEATHER_D5_CLOUDS_ALTOCUMULUS_MIN   = Minimum Magas Gomolyfelhő Lefedettség
+option.WEATHER_D5_CLOUDS_ALTOCUMULUS_MAX   = Maximum Magas Gomolyfelhő Lefedettség
+option.WEATHER_D5_CLOUDS_CIRRUS            = Pehelyfelhő Lefedettség
+option.WEATHER_D5_CLOUDS_CC                = Pelyhesgomolyfelhő Lefedettség
+option.WEATHER_D5_FOGGINESS                = Ködösség
+option.WEATHER_D5_CLOUDS_CUMULUS_CONGESTUS_AMOUNT = Zsúfolt Gomolyfelhők
+option.WEATHER_D5_CLOUDS_STRATUS_AMOUNT    = Réteges Felhők
+option.WEATHER_D6_CLOUDS_CUMULUS_MIN       = Minimum Gomolyfelhő Lefedettség
+option.WEATHER_D6_CLOUDS_CUMULUS_MAX       = Maximum Gomolyfelhő Lefedettség
+option.WEATHER_D6_CLOUDS_ALTOCUMULUS_MIN   = Minimum Magas Gomolyfelhő Lefedettség
+option.WEATHER_D6_CLOUDS_ALTOCUMULUS_MAX   = Maximum Magas Gomolyfelhő Lefedettség
+option.WEATHER_D6_CLOUDS_CIRRUS            = Pehelyfelhő Lefedettség
+option.WEATHER_D6_CLOUDS_CC                = Pelyhesgomolyfelhő Lefedettség
+option.WEATHER_D6_FOGGINESS                = Ködösség
+option.WEATHER_D6_CLOUDS_CUMULUS_CONGESTUS_AMOUNT = Zsúfolt Gomolyfelhők
+option.WEATHER_D6_CLOUDS_STRATUS_AMOUNT    = Réteges Felhők
+option.WEATHER_D7_CLOUDS_CUMULUS_MIN       = Minimum Gomolyfelhő Lefedettség
+option.WEATHER_D7_CLOUDS_CUMULUS_MAX       = Maximum Gomolyfelhő Lefedettség
+option.WEATHER_D7_CLOUDS_ALTOCUMULUS_MIN   = Minimum Magas Gomolyfelhő Lefedettség
+option.WEATHER_D7_CLOUDS_ALTOCUMULUS_MAX   = Maximum Magas Gomolyfelhő Lefedettség
+option.WEATHER_D7_CLOUDS_CIRRUS            = Pehelyfelhő Lefedettség
+option.WEATHER_D7_CLOUDS_CC                = Pelyhesgomolyfelhő Lefedettség
+option.WEATHER_D7_FOGGINESS                = Ködösség
+option.WEATHER_D7_CLOUDS_CUMULUS_CONGESTUS_AMOUNT = Zsúfolt Gomolyfelhők
+option.WEATHER_D7_CLOUDS_STRATUS_AMOUNT    = Réteges Felhők
+option.WEATHER_D8_CLOUDS_CUMULUS_MIN       = Minimum Gomolyfelhő Lefedettség
+option.WEATHER_D8_CLOUDS_CUMULUS_MAX       = Maximum Gomolyfelhő Lefedettség
+option.WEATHER_D8_CLOUDS_ALTOCUMULUS_MIN   = Minimum Magas Gomolyfelhő Lefedettség
+option.WEATHER_D8_CLOUDS_ALTOCUMULUS_MAX   = Maximum Magas Gomolyfelhő Lefedettség
+option.WEATHER_D8_CLOUDS_CIRRUS            = Pehelyfelhő Lefedettség
+option.WEATHER_D8_CLOUDS_CC                = Pelyhesgomolyfelhő Lefedettség
+option.WEATHER_D8_FOGGINESS                = Ködösség
+option.WEATHER_D8_CLOUDS_CUMULUS_CONGESTUS_AMOUNT = Zsúfolt Gomolyfelhők
+option.WEATHER_D8_CLOUDS_STRATUS_AMOUNT    = Réteges Felhők
+option.WEATHER_D9_CLOUDS_CUMULUS_MIN       = Minimum Gomolyfelhő Lefedettség
+option.WEATHER_D9_CLOUDS_CUMULUS_MAX       = Maximum Gomolyfelhő Lefedettség
+option.WEATHER_D9_CLOUDS_ALTOCUMULUS_MIN   = Minimum Magas Gomolyfelhő Lefedettség
+option.WEATHER_D9_CLOUDS_ALTOCUMULUS_MAX   = Maximum Magas Gomolyfelhő Lefedettség
+option.WEATHER_D9_CLOUDS_CIRRUS            = Pehelyfelhő Lefedettség
+option.WEATHER_D9_CLOUDS_CC                = Pelyhesgomolyfelhő Lefedettség
+option.WEATHER_D9_FOGGINESS                = Ködösség
+option.WEATHER_D9_CLOUDS_CUMULUS_CONGESTUS_AMOUNT = Zsúfolt Gomolyfelhők
+option.WEATHER_D9_CLOUDS_STRATUS_AMOUNT    = Réteges Felhők
+option.WEATHER_D10_CLOUDS_CUMULUS_MIN       = Minimum Gomolyfelhő Lefedettség
+option.WEATHER_D10_CLOUDS_CUMULUS_MAX       = Maximum Gomolyfelhő Lefedettség
+option.WEATHER_D10_CLOUDS_ALTOCUMULUS_MIN   = Minimum Magas Gomolyfelhő Lefedettség
+option.WEATHER_D10_CLOUDS_ALTOCUMULUS_MAX   = Maximum Magas Gomolyfelhő Lefedettség
+option.WEATHER_D10_CLOUDS_CIRRUS            = Pehelyfelhő Lefedettség
+option.WEATHER_D10_CLOUDS_CC                = Pelyhesgomolyfelhő Lefedettség
+option.WEATHER_D10_FOGGINESS                = Ködösség
+option.WEATHER_D10_CLOUDS_CUMULUS_CONGESTUS_AMOUNT = Zsúfolt Gomolyfelhők
+option.WEATHER_D10_CLOUDS_STRATUS_AMOUNT    = Réteges Felhők
+option.WEATHER_D11_CLOUDS_CUMULUS_MIN       = Minimum Gomolyfelhő Lefedettség
+option.WEATHER_D11_CLOUDS_CUMULUS_MAX       = Maximum Gomolyfelhő Lefedettség
+option.WEATHER_D11_CLOUDS_ALTOCUMULUS_MIN   = Minimum Magas Gomolyfelhő Lefedettség
+option.WEATHER_D11_CLOUDS_ALTOCUMULUS_MAX   = Maximum Magas Gomolyfelhő Lefedettség
+option.WEATHER_D11_CLOUDS_CIRRUS            = Pehelyfelhő Lefedettség
+option.WEATHER_D11_CLOUDS_CC                = Pelyhesgomolyfelhő Lefedettség
+option.WEATHER_D11_FOGGINESS                = Ködösség
+option.WEATHER_D11_CLOUDS_CUMULUS_CONGESTUS_AMOUNT = Zsúfolt Gomolyfelhők
+option.WEATHER_D11_CLOUDS_STRATUS_AMOUNT    = Réteges Felhők
