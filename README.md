@@ -1,11 +1,13 @@
 ***
 
 ![erbiumBanner](https://media.forgecdn.net/attachments/description/1101072/description_3f9b2eef-07da-4dba-bcaf-086db0363cba.png)
+
 Erbium Shaders is a fork of [Photon Shaders](https://modrinth.com/shader/photon-shader), which: employs modern technologies to transform Minecraft’s blocky, simple graphics into a realistic, detailed, and immersive experience. Its primary focus is on introducing realistic lighting, shadows, reflections, and other visual effects without overburdening the system. This makes it an ideal choice for players who prioritize both beautiful graphics and smooth gameplay.
 
 ***
 
 ![erbiumKeyFeaturesAndHighlights](https://media.forgecdn.net/attachments/description/1101072/description_c6c6c2be-fb11-458e-829c-7752f5063040.png)
+
 (Features left from [Photon](https://modrinth.com/shader/photon-shader))
 
 1. Dynamic Lighting
