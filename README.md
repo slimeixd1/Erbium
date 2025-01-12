@@ -1,18 +1,12 @@
-<br><br>
+***
 
-<h1 align = "center">Erbium Shaders</h1>
+![erbiumBanner](https://media.forgecdn.net/attachments/description/1101072/description_3f9b2eef-07da-4dba-bcaf-086db0363cba.png)
+Erbium Shaders is a fork of [Photon Shaders](https://modrinth.com/shader/photon-shader), which: employs modern technologies to transform Minecraft’s blocky, simple graphics into a realistic, detailed, and immersive experience. Its primary focus is on introducing realistic lighting, shadows, reflections, and other visual effects without overburdening the system. This makes it an ideal choice for players who prioritize both beautiful graphics and smooth gameplay.
 
-<p align = "center">A fork of Photon Shaders. One of the most realistic shaders of them all*!</p>
+***
 
-![Screenshot](docs/images/a.png)
-
-## intro
-
-* Erbium Shaders is a fork of [Photon Shaders](https://modrinth.com/shader/photon-shader), which: employs modern technologies to transform Minecraft’s blocky, 
-simple graphics into a realistic, detailed, and immersive experience. Its primary focus is on introducing realistic lighting, shadows, reflections, and other visual 
-effects without overburdening the system. This makes it an ideal choice for players who prioritize both beautiful graphics and smooth gameplay.
-
-## key features
+![erbiumKeyFeaturesAndHighlights](https://media.forgecdn.net/attachments/description/1101072/description_c6c6c2be-fb11-458e-829c-7752f5063040.png)
+(Features left from [Photon](https://modrinth.com/shader/photon-shader))
 
 1. Dynamic Lighting
 One of the most prominent features of Erbium Shaders is its real-time dynamic lighting. Natural light sources such as sunlight and moonlight, as well as artificial light sources like torches and lamps, cast realistic lights and shadows on the world. The dynamic shadows follow the transition of day and night, and moving objects cast accurate shadows.
@@ -43,18 +37,19 @@ Erbium Shaders offers a wide range of customization options, allowing players to
   
 This flexibility makes Erbium Shaders a great choice for both beginners and advanced Minecraft shader enthusiasts.
 
-## key features added
+***
+
+![erbiumKeyFeaturesAdded](https://media.forgecdn.net/attachments/description/1101072/description_3f69bcbb-7087-4017-9900-1e16b9ac552d.png)
 
 1. Fully Redesigned Fog Engine
-Erbium Shaders features a completely new fog engine that creates smoother, more realistic fog effects. The fog dynamically interacts with light sources, producing stunning atmospheric effects in 
-various biomes, especially forests, mountains, and caves. Its dense now also depends on its height! If you're up the mountains you won't really see any fog, but more you go down, the more denser, 
-and taller the fog will be! (Until Y: 20)
+Erbium Shaders features a completely new fog engine that creates smoother, more realistic fog effects. The fog dynamically interacts with light sources, producing stunning atmospheric effects in various biomes, especially forests, mountains, and caves. Its dense now also depends on its height! If you're up the mountains you won't really see any fog, but more you go down, the more denser, and taller the fog will be! (Until Y: 20)
 
 3. Full Hungarian Language Support
-Erbium Shaders includes complete Hungarian language support, ensuring that all menus, settings, and in-game texts are fully localized for Hungarian players. This makes the shader more 
-accessible and enjoyable for Hungarian-speaking users, providing an intuitive and user-friendly experience.
+Erbium Shaders includes complete Hungarian language support, ensuring that all menus, settings, and in-game texts are fully localized for Hungarian players. This makes the shader more accessible and enjoyable for Hungarian-speaking users, providing an intuitive and user-friendly experience.
 
-## compatibility
+***
+
+![erbiumSystemRequirements](https://media.forgecdn.net/attachments/description/1101072/description_7fd1798f-80ab-4755-acb9-dff5f80c4a95.png)
 
 To ensure proper functionality, the following requirements must be met:
 
@@ -64,12 +59,22 @@ Minimum System Requirements:
 At least 8 GB of RAM.
 OpenGL 3.2 or higher support.
 
-## known issues
+***
+
+![erbiumWhoIsItFor](https://media.forgecdn.net/attachments/description/1101072/description_e46f4bec-15f9-4dde-99c8-3a75c17cc053.png)
+
+Erbium Shaders is an ideal choice for players who want to make Minecraft more realistic without excessively taxing their systems. Thanks to its extensive customization options, the shader is suitable for beginners exploring shaders for the first time and advanced users fine-tuning their visual experience.
+
+***
+
+## Known issues:
 - Litematica Mod can't render textures as holograms:
-    > _If you load a schematic, the ghost blocks will have textures. Litematica's renderer isn't made for Erbium OR Photon, which means it can't render "custom" textures. With shader you'll only 
-	see normal Block Holograms._
+    > _If you load a schematic, the ghost blocks will have textures. Litematica's renderer isn't made for Erbium OR Photon, which means it can't render "custom" textures. With shader you'll only see normal Block Holograms._
 
-## note
+![litematicaError](https://cdn.modrinth.com/data/cached_images/ce86a09ed761077c74f2ec4d1a72209ea296ad4f_0.webp)
 
-Erbium Shaders is a fork of [Photon Shaders](https://modrinth.com/shader/photon-shader). Photon Shaders is made by [SixthSurge](https://modrinth.com/user/sixthsurge)! This all wouldn't be possible without him, 
-and [EminGT](https://modrinth.com/user/EminGT).
+***
+
+![erbiumNote](https://media.forgecdn.net/attachments/description/1101072/description_4e47727e-97bd-43bb-b689-2f9b178463f3.png)
+
+Erbium Shaders is a fork of [Photon Shaders](https://modrinth.com/shader/photon-shader). Photon Shaders is made by [SixthSurge](https://modrinth.com/user/sixthsurge)! This all wouldn't be possible without him, and [EminGT](https://modrinth.com/user/EminGT).
